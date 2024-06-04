@@ -67,4 +67,18 @@ ul {
 .main-content {
     background-color: green;
     grid-area: 2 / 2 / 3 / 3;
+    display: grid;
+    grid-template: 1fr 1fr / 3fr 1fr;
+}
+
+.project-tiles {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.trending {
+    grid-area: 2 / 2 / 3 / 3;
 }
