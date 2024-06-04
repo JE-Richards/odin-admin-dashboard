@@ -45,6 +45,22 @@ ul {
 .sidebar {
     background-color: blue;
     grid-area: 1 / 1 / 3 / 2;
+    display: grid;
+    grid-template-rows: 1fr 4fr 4fr;
+}
+
+.dashboard-name {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-row: 1 2;
+}
+
+.options-list-one {
+    grid-row: 2 3;
+}
+
+.options-list-two {
+    grid-row: 3 4;
 }
 
 /* Main Content Layout */
